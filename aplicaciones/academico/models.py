@@ -7,5 +7,5 @@ class Curso(models.Model):
     nombre = models.CharField(max_length=50)
     creditos = models.PositiveSmallIntegerField()
     
-    def __str__(self) -> str:
-        return f"{self.nombre} ({self.codigo})"
+    # def __str__(self) -> str:
+    #     return f"{self.nombre} ({self.codigo})"
